@@ -32,7 +32,7 @@ services:
       - static_volume:/app/static
       - media_volume:/app/media
     depends_on:
-      - web
+      - fast_web
 
 volumes:
   postgres_data:
